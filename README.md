@@ -4,8 +4,8 @@
 ## Profil
 | Variable | Isi |
 | -------- | --- |
-| **Nama** | Muhammad Nurul Firdaus |
-| **NIM** | 312310495 |
+| **Nama** | Wawan Suwandi |
+| **NIM** | 312310457 |
 | **Kelas** | TI.23.A5 |
 | **Mata Kuliah** | Basis data |
 
