@@ -10,7 +10,8 @@
 | **Mata Kuliah** | Basis data |
 
 # ER-D
-![alt text](Screenshot/ER-D.png)
+![ER-D](https://github.com/Ws529/UAS-Basis-Data./assets/147570983/b2b5f5b6-4760-47c3-a94d-0cbb12e1261c)
+
 
 # Input Data
 ![alt text](Screenshot/Tabel.png)
