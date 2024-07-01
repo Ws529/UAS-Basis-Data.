@@ -14,7 +14,8 @@
 
 
 # Input Data
-![alt text](Screenshot/Tabel.png)
+![Tabel](https://github.com/Ws529/UAS-Basis-Data./assets/147570983/a9ccae9a-e348-4f40-a450-2fde67b633a5)
+
 
 # Soal latihan praktikum 7
 Berdasarkan ERD dan Sampel Data diatas buatlah Query SQL untuk:
