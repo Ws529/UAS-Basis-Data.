@@ -17,7 +17,7 @@
 ![Tabel](https://github.com/Ws529/UAS-Basis-Data./assets/147570983/a9ccae9a-e348-4f40-a450-2fde67b633a5)
 
 
-# Soal latihan praktikum 7
+# Soal praktikum
 Berdasarkan ERD dan Sampel Data diatas buatlah Query SQL untuk:
 1. Menampilkan Nama Karyawan yang Berada di Departemen yang Dipimpin oleh Manajer dengan Nama 'Rika'
 2. Menampilkan Nama Proyek yang dikerjakan oleh Karyawan dari Departemen 'RnD'
@@ -36,7 +36,8 @@ WHERE id_dept = (SELECT id_dept FROM departemen WHERE manajer_nik = 'N03');
 
 **Output :**
 
-![alt text](Screenshot/1.png)
+
+![Cuplikan layar 2024-07-01 111944](https://github.com/Ws529/UAS-Basis-Data./assets/147570983/c13f5c3a-fa0a-4a81-bf2a-8002c62a7dad)
 
 ### 2. Menampilkan Nama Proyek yang dikerjakan oleh Karyawan dari Departemen 'RnD'
 **Script :**
@@ -52,7 +53,7 @@ WHERE Departemen.nama = 'RnD';
 
 **Output :**
 
-![alt text](Screenshot/2.png)
+![Cuplikan layar 2024-07-01 112009](https://github.com/Ws529/UAS-Basis-Data./assets/147570983/678fd22a-3c6c-4453-a3bf-026d835ac302)
 
 ### 3. Menampilkan Nama Karyawan yang Terlibat dalam Lebih dari Satu Proyek
 **Script :**
@@ -67,7 +68,7 @@ HAVING COUNT(Project_detail.id_proj) > 1;
 
 **Output :**
 
-![alt text](Screenshot/3.png)
+![Cuplikan layar 2024-07-01 112032](https://github.com/Ws529/UAS-Basis-Data./assets/147570983/f8b50a85-2fd4-4315-8ee7-f5148b59c86c)
 
 ### 4. Menampilkan Nama Proyek yang melibatkan Karyawan terbanyak.
 **Script :**
@@ -83,7 +84,7 @@ LIMIT 1;
 
 **Output :**
 
-![alt text](Screenshot/4.png)
+![Cuplikan layar 2024-07-01 112047](https://github.com/Ws529/UAS-Basis-Data./assets/147570983/c97ec83d-2485-4ba2-bd11-a86efdbd804d)
 
 ### 5. Menampilkan Nama Proyek yang Diikuti oleh Karyawan dengan Gaji Pokok Kurang dari 3 Juta
 **Script :**
@@ -98,4 +99,5 @@ WHERE Karyawan.gaji_pokok < 3000000;
 
 **Output :**
 
-![alt text](Screenshot/5.png)
+
+![Cuplikan layar 2024-07-01 112009](https://github.com/Ws529/UAS-Basis-Data./assets/147570983/a035be00-9bfb-4679-8b7a-8690f72bb800)
